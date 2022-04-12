@@ -1,0 +1,57 @@
+---
+name: Video Example
+on:
+  push:
+    branches: [ main ]
+    workflow_dispatch:
+jobs:
+  build:
+    name: Build Docker
+    runs-on: self-hosted
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build docker
+      run: |
+        docker build -t test .
+  build-2:
+    name: Build Docker
+    runs-on: self-hosted
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build docker
+      run: |
+        docker build -t test .
+  build-3:
+    name: Build Docker
+    runs-on: se;f-hosted
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build docker
+      run: |
+        docker build -t test .
+  build-4:
+    name: Build Docker
+    runs-on: self-hosted
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build docker
+      run: |
+        docker build -t test .
+  build-5:
+    name: Build Docker
+    runs-on: sef-hosted
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build docker
+      run: |
+        docker build -t test .
