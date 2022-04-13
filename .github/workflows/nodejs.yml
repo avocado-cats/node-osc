@@ -31,3 +31,7 @@ jobs:
 
     - name: Test
       run: npm run test
+      
+    - name: Sleep for 1m seconds
+      run: sleep 1m
+      shell: bash
