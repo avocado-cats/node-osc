@@ -33,5 +33,5 @@ jobs:
       run: npm run test
       
     - name: Sleep for 1m seconds
-      run: sleep 1m
+      run: sleep 10m
       shell: bash
