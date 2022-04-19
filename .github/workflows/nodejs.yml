@@ -15,7 +15,7 @@ jobs:
         node-version: ['17', '16', '14', '12']
         os: [ubuntu-latest, macos-latest, windows-latest]
 
-    runs-on: ${{ matrix.os }}
+    runs-on: my-custom-runner
 
     steps:
     - uses: actions/checkout@v2
